@@ -1,0 +1,80 @@
+------------------------------------------------------------
+DASHBOARD TAX DATA FORMAT
+------------------------------------------------------------
+
+TAX OPTIMIZATION IMPACT
+------------------------------------------------------------
+yearly_tax:
+  2022:
+    before: 2800
+    after: 2200
+
+  2023:
+    before: 3100
+    after: 2400
+
+  2024:
+    before: 4000
+    after: 3500
+
+  2025:
+    before: 1900
+    after: 700
+
+
+TAX BREAKDOWN (WEEKLY)
+------------------------------------------------------------
+weekly_breakdown:
+  mon:
+    salary: 1200
+    investments: 800
+    expenses: 1000
+
+  tue:
+    salary: 1100
+    investments: 700
+    expenses: 900
+
+  wed:
+    salary: 900
+    investments: 600
+    expenses: 1000
+
+  thu:
+    salary: 1300
+    investments: 900
+    expenses: 1200
+
+  fri:
+    salary: 1500
+    investments: 1100
+    expenses: 1000
+
+  sat:
+    salary: 800
+    investments: 500
+    expenses: 1400
+
+  sun:
+    salary: 700
+    investments: 400
+    expenses: 900
+
+
+CREDIT SCORE
+------------------------------------------------------------
+credit_score: 821
+last_updated: 2025-03-24
+
+
+TAX LIABILITY TIMELINE
+------------------------------------------------------------
+tax_timeline:
+  current: 5000
+  future:
+    - 6200
+    - 7500
+    - 8800
+    - 10200
+
+------------------------------------------------------------

@@ -1,0 +1,239 @@
+{
+    "user_profile": {
+        "name": "John Doe",
+        "account_number": "ACC123456789",
+        "account_type": "Savings",
+        "current_balance": 45000.00,
+        "available_balance": 43500.00,
+        "monthly_salary": 75000.00,
+        "salary_credit_date": 1,
+        "joined_date": "2020-03-15",
+        "credit_score": 720,
+        "risk_profile": "Moderate"
+    },
+    "recurring_payments": [
+        {
+            "category": "Rent",
+            "amount": 25000.00,
+            "frequency": "monthly",
+            "next_due_date": "2026-02-01"
+        },
+        {
+            "category": "Netflix",
+            "amount": 649.00,
+            "frequency": "monthly",
+            "next_due_date": "2026-01-20"
+        },
+        {
+            "category": "Spotify",
+            "amount": 119.00,
+            "frequency": "monthly",
+            "next_due_date": "2026-01-25"
+        },
+        {
+            "category": "Gym Membership",
+            "amount": 2000.00,
+            "frequency": "monthly",
+            "next_due_date": "2026-01-28"
+        }
+    ],
+    "loans": [
+        {
+            "loan_type": "Personal Loan",
+            "principal_amount": 200000.00,
+            "outstanding_balance": 150000.00,
+            "interest_rate": 10.5,
+            "emi_amount": 5500.00,
+            "emi_due_date": 5,
+            "remaining_tenure_months": 30,
+            "status": "Active"
+        },
+        {
+            "loan_type": "Car Loan",
+            "principal_amount": 500000.00,
+            "outstanding_balance": 320000.00,
+            "interest_rate": 8.75,
+            "emi_amount": 8200.00,
+            "emi_due_date": 10,
+            "remaining_tenure_months": 42,
+            "status": "Active"
+        }
+    ],
+    "investments": [
+        {
+            "type": "Mutual Funds",
+            "amount": 125000.00,
+            "returns_percentage": 12.5,
+            "current_value": 140625.00
+        },
+        {
+            "type": "Fixed Deposit",
+            "amount": 100000.00,
+            "interest_rate": 6.5,
+            "maturity_date": "2026-12-31"
+        }
+    ],
+    "transaction_history": [
+        {
+            "date": "2026-01-16",
+            "description": "Grocery Shopping - BigBazaar",
+            "category": "Groceries",
+            "amount": -3500.00,
+            "balance_after": 45000.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-15",
+            "description": "Fuel - Indian Oil",
+            "category": "Transportation",
+            "amount": -2000.00,
+            "balance_after": 48500.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-14",
+            "description": "Dinner - Taj Restaurant",
+            "category": "Dining",
+            "amount": -4500.00,
+            "balance_after": 50500.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-13",
+            "description": "Online Shopping - Amazon",
+            "category": "Shopping",
+            "amount": -8900.00,
+            "balance_after": 55000.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-12",
+            "description": "Movie Tickets - PVR",
+            "category": "Entertainment",
+            "amount": -1200.00,
+            "balance_after": 63900.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-10",
+            "description": "Car Loan EMI",
+            "category": "Loan Payment",
+            "amount": -8200.00,
+            "balance_after": 65100.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-08",
+            "description": "Medical - Apollo Pharmacy",
+            "category": "Healthcare",
+            "amount": -1500.00,
+            "balance_after": 73300.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-05",
+            "description": "Personal Loan EMI",
+            "category": "Loan Payment",
+            "amount": -5500.00,
+            "balance_after": 74800.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-03",
+            "description": "Electricity Bill",
+            "category": "Utilities",
+            "amount": -2200.00,
+            "balance_after": 80300.00,
+            "type": "debit"
+        },
+        {
+            "date": "2026-01-01",
+            "description": "Salary Credit",
+            "category": "Income",
+            "amount": 75000.00,
+            "balance_after": 82500.00,
+            "type": "credit"
+        },
+        {
+            "date": "2025-12-28",
+            "description": "Grocery Shopping - Reliance Fresh",
+            "category": "Groceries",
+            "amount": -4200.00,
+            "balance_after": 7500.00,
+            "type": "debit"
+        },
+        {
+            "date": "2025-12-25",
+            "description": "Gift Shopping - Lifestyle",
+            "category": "Shopping",
+            "amount": -6500.00,
+            "balance_after": 11700.00,
+            "type": "debit"
+        },
+        {
+            "date": "2025-12-20",
+            "description": "Restaurant - Barbeque Nation",
+            "category": "Dining",
+            "amount": -3800.00,
+            "balance_after": 18200.00,
+            "type": "debit"
+        },
+        {
+            "date": "2025-12-15",
+            "description": "Flight Booking - IndiGo",
+            "category": "Travel",
+            "amount": -12000.00,
+            "balance_after": 22000.00,
+            "type": "debit"
+        },
+        {
+            "date": "2025-12-10",
+            "description": "Car Loan EMI",
+            "category": "Loan Payment",
+            "amount": -8200.00,
+            "balance_after": 34000.00,
+            "type": "debit"
+        }
+    ],
+    "spending_summary": {
+        "current_month": {
+            "total_spent": 37500.00,
+            "by_category": {
+                "Groceries": 3500.00,
+                "Transportation": 2000.00,
+                "Dining": 4500.00,
+                "Shopping": 8900.00,
+                "Entertainment": 1200.00,
+                "Loan Payment": 13700.00,
+                "Healthcare": 1500.00,
+                "Utilities": 2200.00
+            }
+        },
+        "last_month": {
+            "total_spent": 68200.00,
+            "by_category": {
+                "Groceries": 4200.00,
+                "Shopping": 6500.00,
+                "Dining": 3800.00,
+                "Travel": 12000.00,
+                "Loan Payment": 27400.00,
+                "Rent": 25000.00,
+                "Subscriptions": 768.00
+            }
+        }
+    },
+    "alerts": [
+        {
+            "type": "Low Balance Warning",
+            "message": "Your balance is approaching the minimum threshold",
+            "severity": "medium",
+            "date": "2026-01-16"
+        },
+        {
+            "type": "High Spending",
+            "message": "Shopping expenses increased by 37% compared to last month",
+            "severity": "low",
+            "date": "2026-01-14"
+        }
+    ]
+}
